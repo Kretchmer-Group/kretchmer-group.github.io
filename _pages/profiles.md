@@ -8,14 +8,35 @@ nav_order: 7
 
 profiles:
   - align: right
-    image: prof_pic.jpg
-    content: group_member_template.md
+    image: jordan-hale.jpg
+    content: jordan_hale.md
     image_circular: false
     more_info: >
-      <p>Role: Group Member</p>
-      <p>Email: add-email@example.edu</p>
-      <p>Office: add-office-location</p>
+      <p>Role: Graduate Student</p>
+      <p>Email: jhale48@gatech.edu</p>
+      <p>Office: MoSE 4202</p>
+  - align: left
+    image: victor-suarez.jpg
+    content: victor_suarez.md
+    image_circular: false
+    more_info: >
+      <p>Role: Graduate Student</p>
+      <p>Email: vsuarez6@gatech.edu</p>
+      <p>Office: MoSE 4202</p>
+  - align: right
+    image: mikhayla-clothier.jpg
+    content: mikhayla_clothier.md
+    image_circular: false
+    more_info: >
+      <p>Role: Graduate Student</p>
+      <p>Email: mclothier3@gatech.edu</p>
+      <p>Office: MoSE 4202</p>
+  - align: left
+    image: owen-holt-frank.jpg
+    content: owen_holt_frank.md
+    image_circular: false
+    more_info: >
+      <p>Role: Graduate Student</p>
+      <p>Email: oholtfrank3@gatech.edu</p>
+      <p>Office: MoSE 4202</p>
 ---
-
-Add, remove, or reorder entries in the `profiles:` list above to stage your full group roster.
-Upload each headshot to `/assets/img/` and set the `image` field to that filename.
