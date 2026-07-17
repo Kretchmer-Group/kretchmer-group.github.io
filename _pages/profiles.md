@@ -1,28 +1,21 @@
 ---
 layout: profiles
 permalink: /people/
-title: people
-description: members of the lab or group
+title: Group Members
+description: Meet the Kretchmer Group team.
 nav: true
 nav_order: 7
 
 profiles:
-  # if you want to include more than one profile, just replicate the following block
-  # and create one content file for each profile inside _pages/
   - align: right
     image: prof_pic.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
+    content: group_member_template.md
+    image_circular: false
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
-  - align: left
-    image: prof_pic.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+      <p>Role: Group Member</p>
+      <p>Email: add-email@example.edu</p>
+      <p>Office: add-office-location</p>
 ---
+
+Add, remove, or reorder entries in the `profiles:` list above to stage your full group roster.
+Upload each headshot to `/assets/img/` and set the `image` field to that filename.
