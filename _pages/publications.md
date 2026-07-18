@@ -15,10 +15,10 @@ nav_order: 3
 
 <div class="publications">
 
-{% bibliography --query "@*[category=gatech]" %}
+{% bibliography --query @*[category=gatech] %}
 
 <h2 class="category">Work prior to GA Tech:</h2>
 
-{% bibliography --query "@*[category=prior]" %}
+{% bibliography --query @*[category=prior] %}
 
 </div>
