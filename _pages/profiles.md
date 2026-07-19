@@ -46,10 +46,13 @@ profiles:
       <p>Graduate Student</p>
       <p><a href="mailto:oholtfrank3@gatech.edu">oholtfrank3@gatech.edu</a></p>
       <p>MoSE 4202</p>
-  # TODO: add Dan's role and email to more_info.
   - align: left
     image: dan_lotan.jpeg
     content: dan_lotan.md
     image_circular: false
+    more_info: >
+      <p>Graduate Student</p>
+      <p><a href="mailto:dlotan3@gatech.edu">dlotan3@gatech.edu</a></p>
+      <p>MoSE 4202</p>
   - content: former_members.md
 ---
