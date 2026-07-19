@@ -1,1 +1,3 @@
-Victor Suarez is a graduate student in the Kretchmer Group. His work centers on materials systems engineering and data-driven methods.
+## Victor Suarez
+
+Victor received his B.S. in Chemistry from the University of Florida in 2021. His current research interests are in describing electron-transfer in condensed phase systems using path-integral methods.
