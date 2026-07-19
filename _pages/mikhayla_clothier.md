@@ -1,1 +1,3 @@
-Mikhayla Clothier is a graduate student in the Kretchmer Group. She is interested in materials systems engineering and applied research workflows.
+## Mikhayla Clothier
+
+Mikhayla received her bachelors' degrees in chemistry and mathematics from Erskine College in 2022. She currently works in developing real-time extensions to static electronic structure methods for the calculation of non-equilibrium electron and spin dynamics.
