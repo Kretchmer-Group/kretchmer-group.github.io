@@ -15,20 +15,6 @@ profiles:
       <p>Principal Investigator</p>
       <p><a href="mailto:jkretchmer@gatech.edu">jkretchmer@gatech.edu</a></p>
   - align: left
-    image: ziying_cao.jpg
-    content: ziying_cao.md
-    image_circular: false
-    more_info: >
-      <p>Graduate Student</p>
-      <p><a href="mailto:zcao91@gatech.edu">zcao91@gatech.edu</a></p>
-  - align: right
-    image: james_zhong.jpg
-    content: james_zhong.md
-    image_circular: false
-    more_info: >
-      <p>Graduate Student</p>
-      <p><a href="mailto:xzhong34@gatech.edu">xzhong34@gatech.edu</a></p>
-  - align: left
     image: jordan_hale.jpg
     content: jordan_hale.md
     image_circular: false
@@ -60,8 +46,9 @@ profiles:
       <p>Graduate Student</p>
       <p><a href="mailto:oholtfrank3@gatech.edu">oholtfrank3@gatech.edu</a></p>
       <p>MoSE 4202</p>
-  # TODO: add `image: dan_lotan.jpeg` (copy the file to assets/img/) plus role and email in more_info.
+  # TODO: add Dan's role and email to more_info.
   - align: left
+    image: dan_lotan.jpeg
     content: dan_lotan.md
     image_circular: false
   - content: former_members.md
