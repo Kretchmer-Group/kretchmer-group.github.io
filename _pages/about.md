@@ -18,7 +18,6 @@ latest_posts:
 
 <div class="caption">The Kretchmer Group.</div>
 
-
 The Kretchmer Group is a multifaceted theoretical chemistry group that develops and utilizes new methods at the intersection of electronic structure and quantum dynamics. We apply these methods to understand complex electron dynamics in all its forms, investigating processes ranging from charge and spin transport in quantum materials to attosecond-scale dynamics in molecular clusters.
 
 We are located in the [School of Chemistry and Biochemistry](https://chemistry.gatech.edu/) at the Georgia Institute of Technology. If you are interested in joining us, see our [Join Us!]({{ '/join/' | relative_url }}) page.
