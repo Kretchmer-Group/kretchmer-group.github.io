@@ -8,12 +8,19 @@ nav_order: 2
 ---
 
 <!-- pages/projects.md -->
+<style>
+  .projects .card-img-top {
+    height: 220px;
+    object-fit: cover;
+    width: 100%;
+  }
+</style>
 <div class="projects">
   {% assign sorted_projects = site.projects | sort: "importance" %}
   <div class="row row-cols-1 row-cols-md-2">
     {% for project in sorted_projects %}
       <div class="col mb-4">
-        <div class="card h-100 z-depth-1">
+	<div class="card h-100 border-0">	
           {% if project.img %}
             {% assign ext = project.img | split: "." | last | downcase %}
             {% if ext == "mp4" or ext == "webm" %}
@@ -26,7 +33,7 @@ nav_order: 2
           {% endif %}
       <div class="card-body">
             <h3 class="card-title">{{ project.title }}</h3>
-            <p class="card-text">{{ project.description }}</p>
+	    <div class="card-text">{{ project.description | markdownify }}</div>       
           </div>
         </div>
       </div>
