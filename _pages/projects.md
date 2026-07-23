@@ -2,7 +2,6 @@
 layout: page
 title: Research
 permalink: /research/
-description: Our group develops and applies theoretical and computational methods to understand chemical structure, dynamics, and mechanism. Below is an overview of our current research directions.
 nav: true
 nav_order: 2
 ---
