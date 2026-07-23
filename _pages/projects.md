@@ -15,14 +15,16 @@ nav_order: 2
       <div class="col mb-4">
         <div class="card h-100 z-depth-1">
           {% if project.img %}
-            <img
-              src="{{ project.img | relative_url }}"
-              alt="{{ project.title }}"
-              class="card-img-top"
-              loading="lazy"
-            />
+            {% assign ext = project.img | split: "." | last | downcase %}
+            {% if ext == "mp4" or ext == "webm" %}
+              <video class="card-img-top" autoplay loop muted playsinline>
+                <source src="{{ project.img | relative_url }}" type="video/{{ ext }}" />
+              </video>
+            {% else %}
+              <img src="{{ project.img | relative_url }}" alt="{{ project.title }}" class="card-img-top" loading="lazy" />
+            {% endif %}
           {% endif %}
-          <div class="card-body">
+      <div class="card-body">
             <h3 class="card-title">{{ project.title }}</h3>
             <p class="card-text">{{ project.description }}</p>
           </div>
