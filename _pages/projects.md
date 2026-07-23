@@ -9,10 +9,28 @@ nav_order: 2
 
 <!-- pages/projects.md -->
 <style>
+  .projects .card {
+    box-shadow: none !important;
+    border: none !important;
+    background: transparent;
+  }
+  .projects .card:hover {
+    box-shadow: none !important;
+  }
   .projects .card-img-top {
     height: 220px;
     object-fit: cover;
     width: 100%;
+  }
+  .projects .card-title {
+    font-size: 1.15rem;
+    text-align: center;
+    padding-bottom: 0.6rem;
+    margin-bottom: 0.8rem;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.35);
+  }
+  .projects .card-text {
+    text-align: justify;
   }
 </style>
 <div class="projects">
