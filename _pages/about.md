@@ -26,7 +26,7 @@ latest_posts:
 
 <hr>
 
-The Kretchmer Group is a multifaceted theoretical chemistry group that develops and utilizes new methods at the intersection of electronic structure and quantum dynamics. We apply these methods to understand complex electron dynamics in all its forms, investigating processes ranging from charge and spin transport in quantum materials to attosecond-scale dynamics in molecular clusters.
+The **Kretchmer Group** is a multifaceted theoretical chemistry group that develops and utilizes new methods at the intersection of electronic structure and quantum dynamics. We apply these methods to understand complex electron dynamics in all its forms, investigating processes ranging from charge and spin transport in quantum materials to attosecond-scale dynamics in molecular clusters.
 
 We develop [**TiDES**](https://github.com/jskretchmer/TIDES){:target="\_blank"}, an open-source real-time time-dependent electronic structure package built on [PySCF](https://pyscf.org){:target="\_blank"} for simulating electron and spin dynamics. See our [Software]({{ '/software/' | relative_url }}) page for more.
 
