@@ -2,7 +2,6 @@
 layout: profiles
 permalink: /people/
 title: People
-description: Meet the Kretchmer Group.
 nav: true
 nav_order: 7
 
@@ -14,6 +13,7 @@ profiles:
     more_info: >
       <p>Principal Investigator</p>
       <p><a href="mailto:jkretchmer@gatech.edu">jkretchmer@gatech.edu</a></p>
+      <p>MoSE 2100H</p>
   - align: left
     image: jordan_hale.jpg
     content: jordan_hale.md

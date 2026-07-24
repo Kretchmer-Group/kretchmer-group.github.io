@@ -2,7 +2,6 @@
 layout: about
 title: Home
 permalink: /
-subtitle: Theoretical chemistry at the intersection of electronic structure and quantum dynamics.
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -13,6 +12,11 @@ announcements:
 latest_posts:
   enabled: false
 ---
+
+<!-- The theme hardcodes this heading as lowercase "selected publications"; capitalize it here. -->
+<style>
+  h2 > a[href$="/publications/"] { text-transform: capitalize; }
+</style>
 
 <div class="group-photo" style="position: relative; left: 50%; transform: translateX(-50%); width: min(1140px, 96vw); line-height: 0; margin-bottom: 1.5rem;">
   {% include figure.liquid loading="eager" path="assets/img/group_photo.jpeg" class="img-fluid rounded z-depth-1" alt="The Kretchmer Group" %}
