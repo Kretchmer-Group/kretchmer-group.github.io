@@ -18,9 +18,13 @@ latest_posts:
   h2 > a[href$="/publications/"] { text-transform: capitalize; }
 </style>
 
+<hr>
+
 <div class="group-photo" style="position: relative; left: 50%; transform: translateX(-50%); width: min(1140px, 96vw); line-height: 0; margin-bottom: 1.5rem;">
   {% include figure.liquid loading="eager" path="assets/img/group_photo.jpeg" class="img-fluid rounded z-depth-1" alt="The Kretchmer Group" %}
 </div>
+
+<hr>
 
 The Kretchmer Group is a multifaceted theoretical chemistry group that develops and utilizes new methods at the intersection of electronic structure and quantum dynamics. We apply these methods to understand complex electron dynamics in all its forms, investigating processes ranging from charge and spin transport in quantum materials to attosecond-scale dynamics in molecular clusters.
 
