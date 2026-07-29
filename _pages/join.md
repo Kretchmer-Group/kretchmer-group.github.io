@@ -32,11 +32,11 @@ Interested postdocs should send a resume and a brief letter of introduction dire
 <details>
     <summary> What classes should I take? </summary>
     <p> The two basic ones that all computational students take their first year are “Quantum Mechanics” (CHEM 6491) and “Statistical Mechanics” (CHEM 6481). Beyond that there are:
--“Chemical Kinetics and Reaction Dynamics” (CHEM 6482) 
--“Computational Chemistry” (CHEM 6485)
--“Molecular Spectroscopy” (CHEM 6492)
--“Condensed Matter Physics I” (PHYS 6210)
--“Condensed Matter Physics II” (PHY 6211)  
+- “Chemical Kinetics and Reaction Dynamics” (CHEM 6482) 
+- “Computational Chemistry” (CHEM 6485)
+- “Molecular Spectroscopy” (CHEM 6492)
+- “Condensed Matter Physics I” (PHYS 6210)
+- “Condensed Matter Physics II” (PHY 6211)  
 What is more important to consider when taking classes is whether the class develops your understanding of a topic or methodology that would be useful to you. </p>
 </details>
 
