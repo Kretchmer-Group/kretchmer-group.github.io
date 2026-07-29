@@ -2,7 +2,6 @@
 layout: page
 permalink: /join/
 title: Join Us!
-description: We are actively recruiting new graduate students and postdoctoral researchers.
 nav: true
 nav_order: 9
 ---
