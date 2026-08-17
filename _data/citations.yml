@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-07'
+  last_updated: '2026-08-17'
 papers:
   rycnGDgAAAAJ:2osOgNQ5qMEC:
     citations: 45
@@ -90,7 +90,7 @@ papers:
     title: Development of Real-Time Projected Density Matrix Embedding Theory for the Application to Spin Dynamics
     year: '2026'
   rycnGDgAAAAJ:d1gkVwhDpl0C:
-    citations: 42
+    citations: 43
     title: "Density-matrix embedding theory study of the one-dimensional Hubbard\u2013Holstein model"
     year: '2019'
   rycnGDgAAAAJ:eQOLeE2rZwMC:
