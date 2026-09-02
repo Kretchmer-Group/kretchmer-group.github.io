@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-08-17'
+  last_updated: '2026-09-02'
 papers:
   rycnGDgAAAAJ:2osOgNQ5qMEC:
-    citations: 45
+    citations: 46
     title: A real-time extension of density matrix embedding theory for non-equilibrium electron dynamics
     year: '2018'
   rycnGDgAAAAJ:3fE2CSJIrl8C:
@@ -14,7 +14,7 @@ papers:
     title: Kinetically constrained ring-polymer molecular dynamics extended to electronically adiabatic reaction regimes
     year: '2026'
   rycnGDgAAAAJ:8k81kl-MbHgC:
-    citations: 8
+    citations: 9
     title: Modeling intermolecular Coulombic decay with non-Hermitian real-time time-dependent density functional theory
     year: '2024'
   rycnGDgAAAAJ:9yKSN-GCB0IC:
@@ -46,7 +46,7 @@ papers:
     title: "Kinetically-constrained ring-polymer molecular dynamics for non-adiabatic chemistries involving solvent and donor\u2013acceptor dynamical effects"
     year: '2016'
   rycnGDgAAAAJ:ULOm3_A8WrAC:
-    citations: 0
+    citations: 1
     title: Revealing ultrafast proton-transfer-mediated autoionization as a source of low-energy electrons in hydrogen-bonded systems
     year: '2026'
   rycnGDgAAAAJ:UeHWp8X0CEIC:
@@ -54,7 +54,7 @@ papers:
     title: 'Splitting a system into small fragments: Electron dynamics from real-time density matrix embedding theory'
     year: '2018'
   rycnGDgAAAAJ:UebtZRa9Y70C:
-    citations: 11
+    citations: 12
     title: Interfacial thermal transport between graphene and diamane
     year: '2022'
   rycnGDgAAAAJ:W7OEmFMy1HYC:
@@ -62,7 +62,7 @@ papers:
     title: Direct simulation of proton-coupled electron transfer reaction dynamics and mechanisms
     year: '2015'
   rycnGDgAAAAJ:WF5omc3nYNoC:
-    citations: 53
+    citations: 54
     title: Long Range Proton-Coupled Electron Transfer Reactions of Bis (imidazole) Iron Tetraphenylporphyrins Linked to Benzoates
     year: '2013'
   rycnGDgAAAAJ:Y0pCki6q_DkC:
@@ -114,7 +114,7 @@ papers:
     title: 'O plus ethylene potential energy surface: Theoretical study at the MCSCF and MRMP2 levels'
     year: '2009'
   rycnGDgAAAAJ:u-x6o8ySG0sC:
-    citations: 76
+    citations: 77
     title: 'Cluster size convergence of the density matrix embedding theory and its dynamical cluster formulation: A study with an auxiliary-field quantum Monte Carlo solver'
     year: '2017'
   rycnGDgAAAAJ:u5HHmVD_uO8C:
