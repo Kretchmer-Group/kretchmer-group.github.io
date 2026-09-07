@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-09-02'
+  last_updated: '2026-09-07'
 papers:
   rycnGDgAAAAJ:2osOgNQ5qMEC:
     citations: 46
@@ -15,7 +15,7 @@ papers:
     year: '2026'
   rycnGDgAAAAJ:8k81kl-MbHgC:
     citations: 9
-    title: Modeling intermolecular Coulombic decay with non-Hermitian real-time time-dependent density functional theory
+    title: Modeling intermolecular coulombic decay with non-hermitian real-time time-dependent density functional theory
     year: '2024'
   rycnGDgAAAAJ:9yKSN-GCB0IC:
     citations: 59
@@ -118,7 +118,7 @@ papers:
     title: 'Cluster size convergence of the density matrix embedding theory and its dynamical cluster formulation: A study with an auxiliary-field quantum Monte Carlo solver'
     year: '2017'
   rycnGDgAAAAJ:u5HHmVD_uO8C:
-    citations: 9
+    citations: 10
     title: The fate of atomic spin in atomic scattering off surfaces
     year: '2018'
   rycnGDgAAAAJ:ufrVoPGSRksC:
