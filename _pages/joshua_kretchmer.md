@@ -1,8 +1,8 @@
 <!-- People page styling (this file renders first on /people/, so the styles apply to the whole page). -->
+
+{% include_relative page_title_style.html %}
+
 <style>
-  /* Page title */
-  .post-title { font-weight: 700; font-size: 3rem; color: var(--global-theme-color); }
-  .post-title::after { content: ""; display: block; width: 4rem; height: 0.3rem; margin-top: 0.6rem; border-radius: 0.2rem; background: var(--global-theme-color); }
   /* Spacing between people */
   article hr { margin: 2.75rem 0 2rem; }
   /* Names and section headings (normal text color) */

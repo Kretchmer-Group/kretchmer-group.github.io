@@ -1,0 +1,17 @@
+<!-- Shared page-title styling (bold, accent color, short accent bar). Pulled into each page with include_relative. -->
+<style>
+  .post-title {
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--global-theme-color);
+  }
+  .post-title::after {
+    content: "";
+    display: block;
+    width: 4rem;
+    height: 0.3rem;
+    margin-top: 0.6rem;
+    border-radius: 0.2rem;
+    background: var(--global-theme-color);
+  }
+</style>
