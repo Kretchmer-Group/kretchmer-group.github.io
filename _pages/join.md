@@ -34,9 +34,10 @@ Interested postdocs should send a resume and a brief letter of introduction dire
 </style>
 
 ## Frequently Asked Questions (FAQ)
+
 <div class="pdf-wrapper" markdown="0">
     <iframe 
-        src="{{ '/assets/pdf/ACS_2026_theory_flyer.pdf | relative_url }}" 
+        src="{{ '/assets/pdf/ACS_2026_theory_flyer.pdf' | relative_url }}" 
         width="100%" 
         height="300px" 
         style="border:1px solid #ccc;">
