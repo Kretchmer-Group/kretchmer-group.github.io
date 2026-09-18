@@ -18,32 +18,7 @@ Interested students should consult information about Georgia Tech's PhD program 
 
 Interested postdocs should send a resume and a brief letter of introduction directly to Joshua Kretchmer at [jkretchmer@gatech.edu](mailto:jkretchmer@gatech.edu).
 
-<style>
-.pdf-wrapper {
-  width: 100%;
-  height: 80vh;      /* or any fixed height */
-  overflow: auto;
-  border: 1px solid #ddd;
-}
-
-.pdf-wrapper iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
-}
-</style>
-
-## Frequently Asked Questions (FAQ)
-
-<div class="pdf-wrapper" markdown="0">
-    <iframe 
-        src="{{ '/assets/pdf/ACS_2026_theory_flyer.pdf' | relative_url }}" 
-        width="100%" 
-        height="300px" 
-        style="border:1px solid #ccc;">
-        <p>Your browser does not support iframes. <a href="{{  '/assets/pdf/ACS_2026_theory_flyer.pdf' | relative_url }}">Download the PDF instead.</a></p>
-    </iframe>
-</div>
+{% include pdf-viewer.html src="/assets/pdf/ACS_2026_theory_flyer.pdf" %}
 
 <details>
     <summary> What times do you expect students to be in the office? </summary>
