@@ -342,6 +342,8 @@ scholar:
   details_link: Details
 
   query: "@*"
+  sort_by: year, month # newest first (also applies to the home page's selected publications)
+  order: descending
   group_by: year
   group_order: descending
 
