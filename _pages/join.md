@@ -31,10 +31,10 @@ Interested postdocs should send a resume and a brief letter of introduction dire
   height: 100%;
   border: none;
 }
-<style>
+</style>
 
 ## Frequently Asked Questions (FAQ)
-<div class="pdf-wrapper">
+<div class="pdf-wrapper" markdown="0">
     <iframe 
         src="{{ '/assets/pdf/example_pdf.pdf | relative_url }}" 
         width="100%" 
