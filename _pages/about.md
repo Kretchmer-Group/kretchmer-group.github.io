@@ -14,8 +14,10 @@ latest_posts:
 ---
 
 <!-- The theme hardcodes this heading as lowercase "selected publications"; capitalize it here. -->
+<!-- Also hide the bib "note" line (e.g. "Publisher: ...") on the home page; it still shows on the Publications page. -->
 <style>
   h2 > a[href$="/publications/"] { text-transform: capitalize; }
+  .publications .periodical + .periodical { display: none; }
 </style>
 
 <div class="group-photo" style="line-height: 0; margin-bottom: 1.5rem;">
