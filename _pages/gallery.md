@@ -11,6 +11,8 @@ gallery_images:
     alt: The Kretchmer Group
 ---
 
+{% include_relative shared_style.html %}
+
 <!--
   To add a photo: append an entry to `gallery_images` in this page's front matter, e.g.
     - path: assets/img/your_photo.jpg
