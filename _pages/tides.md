@@ -1,3 +1,5 @@
+{% include_relative shared_style.html %}
+
 ### TiDES
 
 [TiDES](https://github.com/jskretchmer/TIDES) (Time-Dependent Electronic Structure) is our primary

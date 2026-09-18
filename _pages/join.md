@@ -6,7 +6,7 @@ nav: true
 nav_order: 9
 ---
 
-{% include_relative page_title_style.html %}
+{% include_relative shared_style.html %}
 
 We are actively recruiting new graduate students and postdoctoral researchers.
 

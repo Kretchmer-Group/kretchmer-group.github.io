@@ -6,7 +6,7 @@ nav: true
 nav_order: 2
 ---
 
-{% include_relative page_title_style.html %}
+{% include_relative shared_style.html %}
 
 <!-- pages/projects.md -->
 <style>
