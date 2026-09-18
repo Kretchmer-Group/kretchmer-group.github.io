@@ -1,6 +1,6 @@
 <!-- People page styling (this file renders first on /people/, so the styles apply to the whole page). -->
 
-{% include_relative page_title_style.html %}
+{% include_relative shared_style.html %}
 
 <style>
   /* Spacing between people */
