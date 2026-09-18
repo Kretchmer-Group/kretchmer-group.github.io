@@ -6,7 +6,7 @@ nav: true
 nav_order: 9
 ---
 
-{% include_relative page_title_style.html %}
+{% include_relative shared_style.html %}
 
 We are actively recruiting new graduate students and postdoctoral researchers.
 
@@ -19,6 +19,10 @@ Interested students should consult information about Georgia Tech's PhD program 
 Interested postdocs should send a resume and a brief letter of introduction directly to Joshua Kretchmer at [jkretchmer@gatech.edu](mailto:jkretchmer@gatech.edu).
 
 ## Frequently Asked Questions (FAQ)
+
+<iframe src="{{ '/assets/pdf/example_pdf.pdf | relative_url }}" width="100%" height="300px" style="border:1px solid #ccc;">
+    <p>Your browser does not support iframes. <a href="{{  '/assets/pdf/example_pdf.pdf' | relative_url }}">Download the PDF instead.</a></p>
+</iframe>
 
 <details>
     <summary> What times do you expect students to be in the office? </summary>

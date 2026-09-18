@@ -1,4 +1,4 @@
-<!-- Shared page-title styling (bold, accent color, short accent bar). Pulled into each page with include_relative. -->
+<!-- Shared styling for the page title and the site name in the navbar. Pulled into each page with include_relative. -->
 <style>
   .post-title {
     font-weight: 700;
@@ -13,5 +13,10 @@
     margin-top: 0.6rem;
     border-radius: 0.2rem;
     background: var(--global-theme-color);
+  }
+  /* Site name in the top-left of the navbar (hidden on the home page) */
+  .navbar-brand.title {
+    font-weight: 700 !important;
+    font-size: 1.6rem;
   }
 </style>

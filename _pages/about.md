@@ -13,13 +13,15 @@ latest_posts:
   enabled: false
 ---
 
-{% include_relative page_title_style.html %}
+{% include_relative shared_style.html %}
 
 <!-- The theme hardcodes this heading as lowercase "selected publications"; capitalize it here. -->
 <!-- Also hide the bib "note" line (e.g. "Publisher: ...") on the home page; it still shows on the Publications page. -->
 <style>
   h2 > a[href$="/publications/"] { text-transform: capitalize; }
   .publications .periodical + .periodical { display: none; }
+  .join-cta { display: inline-block; padding: 0.6rem 1.5rem; border-radius: 0.35rem; background: var(--global-theme-color); color: #fff !important; font-size: 1.2rem; font-weight: 700; text-decoration: none !important; }
+  .join-cta:hover { filter: brightness(1.1); }
 </style>
 
 <div class="group-photo" style="line-height: 0; margin-bottom: 1.5rem;">
@@ -31,3 +33,5 @@ The Kretchmer Group is a multifaceted theoretical chemistry group that develops 
 We develop [**TiDES**](https://github.com/jskretchmer/TIDES){:target="\_blank"}, an open-source real-time time-dependent electronic structure package built on [PySCF](https://pyscf.org){:target="\_blank"} for simulating electron and spin dynamics. See our [Software]({{ '/software/' | relative_url }}) page for more.
 
 We are located in the [School of Chemistry and Biochemistry](https://chemistry.gatech.edu/) at the Georgia Institute of Technology. If you are interested in joining us, see our [Join Us!]({{ '/join/' | relative_url }}) page.
+
+<p style="margin-bottom: 1.75rem;"><a class="join-cta" href="{{ '/join/' | relative_url }}">Join Us <i class="fa-solid fa-arrow-right"></i></a></p>
