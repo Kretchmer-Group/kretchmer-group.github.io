@@ -2,7 +2,6 @@
 layout: profiles
 permalink: /software/
 title: Software
-description: Software developed by the Kretchmer Group.
 nav: true
 nav_order: 8
 
