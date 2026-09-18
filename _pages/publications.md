@@ -8,6 +8,13 @@ nav_order: 3
 
 {% include_relative shared_style.html %}
 
+<style>
+  /* Section heading between the Georgia Tech and earlier work; matches the bold headings on the People page */
+  .publications h2.category { font-weight: 700; font-size: 2.25rem; color: var(--global-text-color); margin-top: 3.5rem; margin-bottom: 0.5rem; }
+  /* Year headings: bold and in the normal text color (theme default is a faint gray) */
+  .publications h2.bibliography { font-weight: 700; font-size: 1.75rem; color: var(--global-text-color); }
+</style>
+
 <!-- _pages/publications.md -->
 
 <!-- Bibsearch Feature -->
