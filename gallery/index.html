@@ -24,6 +24,20 @@
     font-weight: 700 !important;
     font-size: 1.6rem;
   }
+  /* "N more authors" text: the theme's gray is just under the 4.5:1 minimum contrast */
+  .publications ol.bibliography li .author > span.more-authors {
+    --global-text-color-light: #6b6b6b;
+  }
+  html[data-theme="dark"] .publications ol.bibliography li .author > span.more-authors {
+    --global-text-color-light: #9a9a9a;
+  }
+  /* Underline links in body text and the footer so they don't rely on color alone */
+  article p a:not(.btn):not(.join-cta),
+  article li a:not(.btn),
+  footer a {
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+  }
 </style> <div class="gallery grid grid-cols-2 md:grid-cols-3 gap-4"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/group_photo-480.webp 480w,/assets/img/group_photo-800.webp 800w,/assets/img/group_photo-1400.webp 1400w," type="image/webp" sizes="95vw"></source> <img src="/assets/img/group_photo.jpeg" class="img-fluid rounded z-depth-1" width="100%" height="auto" alt="The Kretchmer Group" loading="lazy" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Joshua Kretchmer. <a href="https://chemistry.gatech.edu/" target="_blank" rel="noopener noreferrer">School of Chemistry and Biochemistry</a>, Georgia Institute of Technology · Atlanta, GA · <a href="mailto:jkretchmer@gatech.edu">jkretchmer@gatech.edu</a> </div> </footer> <script>
   window.alFolio = {
     compatBootstrap: false

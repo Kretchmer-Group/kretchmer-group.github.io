@@ -19,4 +19,18 @@
     font-weight: 700 !important;
     font-size: 1.6rem;
   }
+  /* "N more authors" text: the theme's gray is just under the 4.5:1 minimum contrast */
+  .publications ol.bibliography li .author > span.more-authors {
+    --global-text-color-light: #6b6b6b;
+  }
+  html[data-theme="dark"] .publications ol.bibliography li .author > span.more-authors {
+    --global-text-color-light: #9a9a9a;
+  }
+  /* Underline links in body text and the footer so they don't rely on color alone */
+  article p a:not(.btn):not(.join-cta),
+  article li a:not(.btn),
+  footer a {
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+  }
 </style>

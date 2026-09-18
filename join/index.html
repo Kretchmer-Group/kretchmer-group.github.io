@@ -24,6 +24,20 @@
     font-weight: 700 !important;
     font-size: 1.6rem;
   }
+  /* "N more authors" text: the theme's gray is just under the 4.5:1 minimum contrast */
+  .publications ol.bibliography li .author > span.more-authors {
+    --global-text-color-light: #6b6b6b;
+  }
+  html[data-theme="dark"] .publications ol.bibliography li .author > span.more-authors {
+    --global-text-color-light: #9a9a9a;
+  }
+  /* Underline links in body text and the footer so they don't rely on color alone */
+  article p a:not(.btn):not(.join-cta),
+  article li a:not(.btn),
+  footer a {
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+  }
 </style> <p>We are actively recruiting new graduate students and postdoctoral researchers.</p> <h2 id="graduate-students">Graduate Students</h2> <p>Interested students should consult information about Georgia Tech’s PhD program <a href="https://chemistry.gatech.edu/graduate-admission" rel="external nofollow noopener" target="_blank">here</a>.</p> <h2 id="postdoctoral-researchers">Postdoctoral Researchers</h2> <p>Interested postdocs should send a resume and a brief letter of introduction directly to Joshua Kretchmer at <a href="mailto:jkretchmer@gatech.edu">jkretchmer@gatech.edu</a>.</p> <style>
     .pdfjs-wrapper {
       width: 100%;
