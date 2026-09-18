@@ -4,7 +4,7 @@ title: Gallery
 permalink: /gallery/
 nav: true
 nav_order: 8.5
-description: Photos from the group.
+description: Photos from the group... when we get some
 
 gallery_images:
   - path: assets/img/group_photo.jpeg
