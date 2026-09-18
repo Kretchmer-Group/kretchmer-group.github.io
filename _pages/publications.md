@@ -7,6 +7,8 @@ nav: true
 nav_order: 3
 ---
 
+{% include_relative page_title_style.html %}
+
 <!-- _pages/publications.md -->
 
 <!-- Bibsearch Feature -->
