@@ -13,6 +13,8 @@ latest_posts:
   enabled: false
 ---
 
+{% include_relative page_title_style.html %}
+
 <!-- The theme hardcodes this heading as lowercase "selected publications"; capitalize it here. -->
 <!-- Also hide the bib "note" line (e.g. "Publisher: ...") on the home page; it still shows on the Publications page. -->
 <style>
