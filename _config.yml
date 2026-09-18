@@ -16,7 +16,7 @@ footer_text: >
   Georgia Institute of Technology &middot; Atlanta, GA &middot; <a href="mailto:jkretchmer@gatech.edu">jkretchmer@gatech.edu</a>
 keywords: theoretical chemistry, quantum dynamics, electronic structure, electron dynamics, quantum materials, Georgia Tech # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: gt_favicon.ico # the favicon: an emoji, or an image name in /assets/img/ (currently the Georgia Tech logo; replace with a group logo if one is made)
 
 url: https://kretchmergroup.chemistry.gatech.edu # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
