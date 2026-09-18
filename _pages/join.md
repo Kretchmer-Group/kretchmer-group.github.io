@@ -20,8 +20,8 @@ Interested postdocs should send a resume and a brief letter of introduction dire
 
 ## Frequently Asked Questions (FAQ)
 
-<iframe src="{{ '/assests/pdf/example_pdf.pdf | relative_url }}" width="100%" height="300px" style="border:1px solid #ccc;">
-    <p>Your browser does not support iframes. <a href="{{  '/assests/pdf/example_pdf.pdf' | relative_url }}">Download the PDF instead.</a></p>
+<iframe src="{{ '/assets/pdf/example_pdf.pdf | relative_url }}" width="100%" height="300px" style="border:1px solid #ccc;">
+    <p>Your browser does not support iframes. <a href="{{  '/assets/pdf/example_pdf.pdf' | relative_url }}">Download the PDF instead.</a></p>
 </iframe>
 
 <details>
