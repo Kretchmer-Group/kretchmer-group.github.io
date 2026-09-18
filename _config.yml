@@ -12,8 +12,8 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   and applies new methods at the intersection of electronic structure and quantum dynamics, from charge and
   spin transport in quantum materials to attosecond-scale dynamics in molecular clusters.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  <a href="https://chemistry.gatech.edu/" target="_blank" rel="noopener noreferrer">School of Chemistry and Biochemistry</a>,
+  Georgia Institute of Technology &middot; Atlanta, GA &middot; <a href="mailto:jkretchmer@gatech.edu">jkretchmer@gatech.edu</a>
 keywords: theoretical chemistry, quantum dynamics, electronic structure, electron dynamics, quantum materials, Georgia Tech # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)

@@ -6,6 +6,8 @@ nav: true
 nav_order: 2
 ---
 
+{% include_relative page_title_style.html %}
+
 <!-- pages/projects.md -->
 <style>
   .projects .card {
