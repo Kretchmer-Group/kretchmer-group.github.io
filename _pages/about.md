@@ -20,8 +20,6 @@ latest_posts:
 <style>
   h2 > a[href$="/publications/"] { text-transform: capitalize; }
   .publications .periodical + .periodical { display: none; }
-  .join-cta { display: inline-block; padding: 0.6rem 1.5rem; border-radius: 0.35rem; background: var(--global-theme-color); color: #fff !important; font-size: 1.2rem; font-weight: 700; text-decoration: none !important; }
-  .join-cta:hover { filter: brightness(1.1); }
 </style>
 
 <div class="group-photo" style="line-height: 0; margin-bottom: 1.5rem;">
@@ -29,9 +27,3 @@ latest_posts:
 </div>
 
 The Kretchmer Group is a multifaceted theoretical chemistry group that develops and utilizes new methods at the intersection of electronic structure and quantum dynamics. We apply these methods to understand complex electron dynamics in all its forms, investigating processes ranging from charge and spin transport in quantum materials to attosecond-scale dynamics in molecular clusters.
-
-We develop [**TiDES**](https://github.com/jskretchmer/TIDES){:target="\_blank"}, an open-source real-time time-dependent electronic structure package built on [PySCF](https://pyscf.org){:target="\_blank"} for simulating electron and spin dynamics. See our [Software]({{ '/software/' | relative_url }}) page for more.
-
-We are located in the [School of Chemistry and Biochemistry](https://chemistry.gatech.edu/) at the Georgia Institute of Technology. If you are interested in joining us, see our [Join Us!]({{ '/join/' | relative_url }}) page.
-
-<p style="margin-bottom: 1.75rem;"><a class="join-cta" href="{{ '/join/' | relative_url }}">Join Us <i class="fa-solid fa-arrow-right"></i></a></p>
