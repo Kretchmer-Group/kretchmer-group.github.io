@@ -17,8 +17,10 @@ latest_posts:
 
 <!-- The theme hardcodes this heading as lowercase "selected publications"; capitalize it here. -->
 <!-- Also hide the bib "note" line (e.g. "Publisher: ...") on the home page; it still shows on the Publications page. -->
+<!-- The heading matches the names on the People page (bold, 2.25rem, normal text color); the :has rule styles the h2, the a rule is a fallback. -->
 <style>
-  h2 > a[href$="/publications/"] { text-transform: capitalize; }
+  h2:has(> a[href$="/publications/"]) { font-weight: 700; font-size: 2.25rem; color: var(--global-text-color); }
+  h2 > a[href$="/publications/"] { text-transform: capitalize; font-weight: 700; font-size: 2.25rem; }
   .publications .periodical + .periodical { display: none; }
 </style>
 
