@@ -1,5 +1,14 @@
 {% include_relative shared_style.html %}
 
+<!-- Match this page's one heading to the People page's name style -->
+<style>
+  article .clearfix h3 {
+    font-weight: 700;
+    font-size: 2.25rem;
+    color: var(--global-text-color);
+  }
+</style>
+
 ### TiDES
 
 [TiDES](https://github.com/jskretchmer/TIDES) (Time-Dependent Electronic Structure) is our primary
