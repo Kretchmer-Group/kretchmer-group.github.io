@@ -9,8 +9,8 @@ nav_order: 3
 {% include_relative shared_style.html %}
 
 <style>
-  /* Heading for the earlier-work section; 0.6x the People page name size (2.25rem) */
-  .publications h2.category { font-weight: 700; font-size: 1.35rem; color: var(--global-text-color); margin-top: 3.5rem; margin-bottom: 0.5rem; }
+  /* Heading for the earlier-work section; same size as the year headings */
+  .publications h2.category { font-weight: 700; font-size: 1.75rem; color: var(--global-text-color); margin-top: 3.5rem; margin-bottom: 0.5rem; }
   /* Year headings: bold and in the normal text color (theme default is a faint gray) */
   .publications h2.bibliography { font-weight: 700; font-size: 1.75rem; color: var(--global-text-color); }
 </style>
