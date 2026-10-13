@@ -45,7 +45,14 @@
     font-size: 1.125rem;
     line-height: 1.7;
   }
-</style> <style>
+</style> <script>
+  // The theme hardcodes the abstract toggle button as "Abs"; spell it out. Only touches buttons labeled exactly "Abs" (the Video toggle shares the class).
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll("a.abstract.btn").forEach(function (btn) {
+      if (btn.textContent.trim() === "Abs") btn.textContent = "Abstract";
+    });
+  });
+</script> <style>
   /* Spacing between people */
   article hr { margin: 2.75rem 0 2rem; }
   /* Names and section headings (normal text color) */
