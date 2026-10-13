@@ -2,4 +2,4 @@
 
 ## Owen Holt-Frank
 
-Owen received his B.A. in Chemistry and Mathematics at Grinnell College in 2024. His research interests center on resonance (metastable) electronic states and the non-radiative decay processes that depopulate them, such as interatomic Coulombic decay. Current work uses complex absorbing potential equation-of-motion coupled-cluster theory (CAP-EOM-CCSD) to compute the energies and decay widths of these resonances, characterizing interatomic and electron-transfer-mediated Coulombic decay in rare-gas–water clusters.
+Owen received his B.A. in Chemistry and Mathematics from Grinnell College in 2024. His research interests include non-radiative electronic decay processes such as interatomic Coulombic decay and electron-transfer-mediated decay. His current research applies ab initio electronic structure and dynamics methods to characterize these decay pathways at rare-gas/water interfaces, in collaboration with experiments from the Orlando group.

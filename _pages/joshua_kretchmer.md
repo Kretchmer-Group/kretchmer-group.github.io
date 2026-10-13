@@ -7,6 +7,9 @@
   article hr { margin: 2.75rem 0 2rem; }
   /* Names and section headings (normal text color) */
   article .clearfix h2 { font-weight: 700; font-size: 2.25rem; color: var(--global-text-color); margin: 0 0 0.75rem; }
+  @media (max-width: 576px) {
+    article .clearfix h2 { font-size: 1.75rem; }
+  }
   /* Bios */
   article .clearfix p { font-size: 1.125rem; line-height: 1.7; }
   /* Role + contact under each photo */

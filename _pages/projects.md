@@ -33,6 +33,11 @@ nav_order: 2
     font-size: 2.25rem;
     color: var(--global-text-color);
   }
+  @media (max-width: 576px) {
+    .projects .project-title {
+      font-size: 1.75rem;
+    }
+  }
   .projects .project-description {
     text-align: justify;
   }

@@ -15,6 +15,11 @@ nav_order: 9
     font-size: 2.25rem;
     color: var(--global-text-color);
   }
+  @media (max-width: 576px) {
+    article > h2 {
+      font-size: 1.75rem;
+    }
+  }
   article > p,
   article details p,
   .pdfjs-pages p {
