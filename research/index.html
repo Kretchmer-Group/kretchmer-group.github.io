@@ -31,6 +31,10 @@
   html[data-theme="dark"] .publications ol.bibliography li .author > span.more-authors {
     --global-text-color-light: #9a9a9a;
   }
+  /* The theme underlines the PI's name in author lists; drop it */
+  .publications ol.bibliography li .author > em {
+    border-bottom: none;
+  }
   /* Underline links in body text and the footer so they don't rely on color alone */
   article p a:not(.btn):not(.join-cta),
   article li a:not(.btn),
