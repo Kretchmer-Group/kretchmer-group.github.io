@@ -29,6 +29,9 @@ nav_order: 2
   .projects .project-title {
     margin-top: 0;
     margin-bottom: 0.8rem;
+    font-weight: 700;
+    font-size: 2.25rem;
+    color: var(--global-text-color);
   }
   .projects .project-description {
     text-align: justify;

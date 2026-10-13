@@ -44,6 +44,15 @@
     font-size: 1.125rem;
     line-height: 1.7;
   }
+  /* "More info" text under a profile photo (People's role/contact lines, Software's Source Code link):
+     the theme defaults .more-info to a monospace font; use the site's normal font and size everywhere it appears. */
+  .profile .more-info {
+    font-family: inherit;
+  }
+  .profile .more-info p {
+    font-size: 1.05rem;
+    line-height: 1.5;
+  }
 </style>
 <script>
   // The theme hardcodes the abstract toggle button as "Abs"; spell it out. Only touches buttons labeled exactly "Abs" (the Video toggle shares the class).

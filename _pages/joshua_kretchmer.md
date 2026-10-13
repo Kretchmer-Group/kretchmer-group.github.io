@@ -11,8 +11,8 @@
   article .clearfix p { font-size: 1.125rem; line-height: 1.7; }
   /* Role + contact under each photo */
   .profile { margin-bottom: 1.25rem; }
-  .profile .more-info { font-family: inherit; margin-top: 0.75rem; }
-  .profile .more-info p { display: block; margin: 0 0 0.35rem; font-size: 1.05rem; line-height: 1.5; }
+  .profile .more-info { margin-top: 0.75rem; }
+  .profile .more-info p { display: block; margin: 0 0 0.35rem; }
   .profile .more-info .role { font-size: 0.95rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--global-text-color); margin-bottom: 0.6rem; }
   .profile .more-info .contact i { width: 1.4em; color: var(--global-theme-color); }
   /* Former members: cards */

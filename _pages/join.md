@@ -8,6 +8,21 @@ nav_order: 9
 
 {% include_relative shared_style.html %}
 
+<!-- Match this page's section headings and body text to the rest of the site -->
+<style>
+  article > h2 {
+    font-weight: 700;
+    font-size: 2.25rem;
+    color: var(--global-text-color);
+  }
+  article > p,
+  article details p,
+  .pdfjs-pages p {
+    font-size: 1.125rem;
+    line-height: 1.7;
+  }
+</style>
+
 We are actively recruiting new graduate students and postdoctoral researchers.
 
 ## Graduate Students
