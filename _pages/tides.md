@@ -7,6 +7,11 @@
     font-size: 2.25rem;
     color: var(--global-text-color);
   }
+  @media (max-width: 576px) {
+    article .clearfix h3 {
+      font-size: 1.75rem;
+    }
+  }
 </style>
 
 ### TiDES
